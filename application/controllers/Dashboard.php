@@ -48,6 +48,9 @@ class Dashboard extends CI_Controller
         $data['alarm_list']   = $this->model->getAlarmList();
         $data['detail_radio'] = $this->model->getDetailsRadio($radio_id);
 
+        // var_dump($data['detail_radio']);
+        // die;
+
         $page = array(
             'header'        => $this->load->view('templates/header', $data, TRUE),
             'sidebar'       => $this->load->view('templates/sidebar', $data, TRUE),

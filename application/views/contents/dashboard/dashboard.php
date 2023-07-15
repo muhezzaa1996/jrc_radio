@@ -13,7 +13,7 @@
             <div class="col-md-12">
                 <div class="card full-height">
                     <div class="card-body">
-                        <div class="card-title">Main Information Radio List</div>
+                        <div class="card-title">Radio List</div>
                         <div class="d-flex flex-wrap justify-content-around pb-2 pt-4">
 
                             <!-- Begin:: Percobaan Looping -->
@@ -29,7 +29,7 @@
                                                 </div>
                                                 <div class="col-8 col-stats">
                                                     <div class="numbers">
-                                                        <a href="<?= base_url('dashboard/details/') .  $radio['mst_radio_frequency_id'] ?>" class="card-category" style="font-size: 16px"><?= $radio['station_display_name'] . " " . $radio['radio_number'] ?></a>
+                                                        <a href="<?= base_url('dashboard/details/') .  $radio['mst_radio_frequency_id'] ?>" class="card-category" style="font-size: 16px"><?= 'Radio ' . $radio['station_display_name'] . " " . $radio['radio_number'] ?></a>
                                                         <h4 class="card-title" id="channel_info" style="font-size: 16px">OFF</h4>
                                                     </div>
                                                 </div>
